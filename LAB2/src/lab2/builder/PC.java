@@ -75,7 +75,10 @@ public class PC {
         public Builder name(String name) { this.name = name; return this; }
         public Builder cpu(CPU cpu) { this.cpu = cpu; return this; }
         public Builder gpu(GPU gpu) { this.gpu = gpu; return this; }
-        public Builder ram(RAM ram) { this.ram = ram; return this; }
+        public Builder ram(RAM ram) { 
+            this.ram = ram; 
+            return this; 
+        }
         public Builder storage(String storage) { this.storage = storage; return this; }
         public Builder powerSupply(String powerSupply) { this.powerSupply = powerSupply; return this; }
         public Builder caseType(String caseType) { this.caseType = caseType; return this; }
